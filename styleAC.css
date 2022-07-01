@@ -1,0 +1,100 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@font-face{
+	font-family: 'Harbour';
+	src: url('Harbour Regular/Harbour.ttf') format('ttf');
+}
+
+@font-face{
+	font-family: 'Nexa';
+	src: url('Nexa.otf') format('otf');
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* cover page*/
+#page1{
+    background-color: #217AAF;
+    font-family: 'Harbour';
+    height: 40%;
+    padding-bottom: 120px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-size: 20px;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFE588;
+}
+/* header*/
+.home{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.menu{
+    padding-right: 15px;
+}
+
+a:hover{
+    color: #FF7A00;
+}
+
+/*center text*/
+.contentOne{
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.subTitle{
+    font-size: 36px;
+    color: white;
+}
+.border{
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+}
+
+
+#page2{
+    background-color: #F2E3D0;
+    padding: 15px;
+}
+#page2 p{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: 'Nexa', arial;
+    color: #0C4682;
+    
+}
+.sigC{
+    display: grid;
+    grid-template-columns: 1fr 1 1fr 1fr 1fr;
+}
+.sig{
+    grid-column: 3;
+    width: 70%;
+
+}
