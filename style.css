@@ -119,9 +119,17 @@ a{
     and (-webkit-device-pixel-ratio: 3) {   
     .content p{
         font-size: 18px;   
+        max-width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Poppins', sans-serif;
     } 
     .quote , .blockquote{
         font-size: 18px;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Harbour';
     }
 }
 
