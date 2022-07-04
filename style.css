@@ -113,7 +113,10 @@ a{
     margin-right: auto;
     margin-left: auto;
 }
-@media screen and (max-width: 700px){
+@media only screen 
+    and (device-width: 375px)
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {   
     .content p{
         font-size: 18px;   
     } 
