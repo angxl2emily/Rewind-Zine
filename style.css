@@ -118,7 +118,7 @@ a{
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) {   
     .content p{
-        font-size: 18px;   
+        font-size: 5px;   
         max-width: 85%;
         margin-right: auto;
         margin-left: auto;
