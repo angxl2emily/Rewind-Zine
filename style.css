@@ -113,6 +113,14 @@ a{
     margin-right: auto;
     margin-left: auto;
 }
+@media screen and (max-width: 700px){
+    .content p{
+        font-size: 18px;   
+    } 
+    .quote , .blockquote{
+        font-size: 18px;
+    }
+}
 
 /*Page 2*/
 /*profile img on page2*/

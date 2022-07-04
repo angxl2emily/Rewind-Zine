@@ -44,6 +44,9 @@ a{
     text-decoration: none;
     color: #FFE588;
 }
+#page1 img{
+    max-width: 75%;
+}
 /* header*/
 .home{
     padding-left: 15px;
