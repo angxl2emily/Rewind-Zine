@@ -23,7 +23,7 @@ body{
 /* cover page*/
 #page1{
     background-color: #217AAF;
-    font-family: 'Harbour';
+    font-family: 'Harbour', 'Spectral';
     height: 700px;
     padding-bottom: 120px;
 }
@@ -83,18 +83,18 @@ a{
 
 /* actual article content */
 .secTitle{
-    font-family: 'Harbour';
+    font-family: 'Harbour', 'Spectral';
     text-align: center;
     font-size: 50px;
 }
 .secTitle2{
-    font-family: 'Harbour';
+    font-family: 'Harbour', 'Spectral';
     color: #FFE588;
     text-align: center;
     font-size: 28px;
 }
 .quote , .blockQuote{
-    font-family: 'Harbour';
+    font-family: 'Harbour', 'Spectral';
     font-size: 24px;
     width: 50%;
     margin-right: auto;
@@ -218,7 +218,7 @@ figcaption{
     color: #FFE588;
     padding-top: 15px;
     
-    font-family: 'Harbour';
+    font-family: 'Harbour', 'Spectral';
     font-size: 20px;
     
     max-width: 75%;

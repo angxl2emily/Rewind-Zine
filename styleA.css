@@ -23,7 +23,7 @@ body{
 /* cover page*/
 #page1{
     background-color: #217AAF;
-    font-family: 'Harbour';
+    font-family: 'Harbour', 'Spectral';
     height: 40%;
     padding-bottom: 120px;
 }
