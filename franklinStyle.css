@@ -53,7 +53,7 @@ a{
     padding-top: 10px;
     font-size: 30px;
 }
-.home a:hover{
+.home a{
     color: #FF7A00;
 }
 .menu{
@@ -214,6 +214,10 @@ figcaption{
     margin-right: auto;
     margin-left: auto;
 }
+#page5 .quote{
+    color: #FFE588;
+    padding-top: 15px;
+}
 #page5 .blockQuote {
     color: #FFE588;
     padding-top: 15px;
@@ -236,6 +240,9 @@ figcaption{
     display:flex;
     justify-content: center;
 }
+.let img{
+    max-width: 35%;
+}
 .column {
     width: 25%;
     padding: 5px;
@@ -252,4 +259,6 @@ figcaption{
     font-size: 16px;
     color: #2e5988;
 }
-
+.sources a:hover{
+    color:#FF7A00;
+}

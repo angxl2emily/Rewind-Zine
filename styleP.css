@@ -40,7 +40,11 @@ ul{
 ul li{
     list-style: none;
 }
-a{
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+.menu a{
     text-decoration: none;
     color: #FFE588;
 }
@@ -81,151 +85,48 @@ a{
     padding: 20px;
 }
 
-/* actual article content */
-.secTitle{
-    font-family: 'Harbour', 'Spectral';
-    text-align: center;
-    font-size: 50px;
-}
-.secTitle2{
-    font-family: 'Harbour', 'Spectral';
-    color: #FFE588;
-    text-align: center;
-    font-size: 28px;
-}
-.quote , .blockQuote{
-    font-family: 'Harbour' 'Spectral';
-    font-size: 24px;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-}
+.proj{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 
-.content p{
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 24px;
-    font-family: 'Nexa', arial;
-}
-.content .bullets{
+    margin: 25px;
+    gap: 25px;
+    background-color: white;
+    padding: 15px;
     max-width: 75%;
-    margin-right: auto;
+
+
     margin-left: auto;
-}
-
-/*Page 2*/
-/*profile img on page2*/
-#page2{
-    background-color: #0C4682;
-    padding-bottom: 20px;
-}
-#page2 p{
-    color: white;
-}
-#page2 .secTitle{
-    color: #FFE588;
-}
-#page2 .quote{
-    color: #FFE588;
-    padding-top: 15px;
-}
-.profile{
-    display: block;
-
-   /*responsiveness of blue background fixed by using max width instead of height*/
-    max-width: 20%;
-    height: auto;
-    margin-left:auto;
     margin-right: auto;
-    border-radius: 25px;
-}
 
-/*Page 3*/
-#page3{
-    background-color: #F2E3D0;
-    color: #0C4682;
-    padding-bottom: 20px;
-}
-#page3 .secTitle .quote{
-    color: #0C4682;
-}
+    border-style: solid;
+    border-width: 15px;
+    border-color: #DEEAE2;
+    border-radius: 30px;
 
-/*page 4, copied from 2*/
-#page4{
-    background-color: #0C4682;
-    padding-bottom: 20px;
 }
-#page4 p{
-    color: white;
+.L img{
+    border-radius: 15px;
+    max-height: 280px;
 }
-#page4 .secTitle{
-    color: #FFE588;
-}
-#page4 .quote{
-    color: #FFE588;
-    padding-top: 15px;
-}
-
-#page4 img{
-    max-width: 45%;
-    display: block;
+.R{
     padding: 10px;
-    margin-right: auto;
-    margin-left: auto;
-}
-figcaption{
-    color: #FF7A00;
-    font-family: 'Nexa', arial;
-    font-size: 14px;
-    text-align: center;
 }
 
-/*Page5*/
-#page5{
-    background-color: #217AAF;
-    padding-bottom: 20px;
-}
-#page5 p{
-    color: white;
-}
-#page5 .secTitle{
-    color: #FFE588;
-    max-width: 70%;
-    margin-right: auto;
+#cen{
+    display: block;
     margin-left: auto;
-}
-#page5 .blockQuote {
-    color: #FFE588;
-    padding-top: 15px;
-    
-    font-family: 'Harbour', 'Spectral';
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
-    
-    max-width: 75%;
-    margin-right: auto;
-    margin-left: auto;
 }
-#page5 figure img{
-    max-width: 50%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+button{
     padding: 10px;
-}
-.let{
-    display:flex;
-    justify-content: center;
-}
-.column {
-    width: 25%;
-    padding: 5px;
-}
-
-/*page 6 copied from 3*/
-#page6{
-    background-color: #F2E3D0;
-    color: #0C4682;
-    padding-bottom: 20px;
+    color:#217AAF;
+    background-color: white;
+    border-color: #217AAF;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
