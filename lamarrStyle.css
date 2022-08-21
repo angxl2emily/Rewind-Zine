@@ -53,6 +53,9 @@ a{
     padding-top: 10px;
     font-size: 30px;
 }
+.home a{
+    color: #FF7A00;
+}
 .menu{
     padding-right: 15px;
 }
@@ -226,7 +229,7 @@ figcaption{
     margin-right: auto;
     margin-left: auto;
 }
-#page5 figure img{
+img{
     max-width: 50%;
     display: block;
     margin-right: auto;
@@ -254,8 +257,8 @@ figcaption{
 
 .sources a{
     font-size: 16px;
-    color: #2e5988;
+    color: #FF7A00;
 }
 .sources a:hover{
-    color:#FF7A00;
+    color:#FFE588;
 }

@@ -53,6 +53,9 @@ a{
     padding-top: 10px;
     font-size: 30px;
 }
+.home a{
+    color: #FF7A00;
+}
 .menu{
     padding-right: 15px;
 }
